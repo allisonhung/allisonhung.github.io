@@ -995,74 +995,123 @@ margin: auto;
 
 
 .education_area .education_inner_area .education_item h5 {
-  font-size: 14px;
+  
+	font-size: 14px;
   color: #333333;
   font-family: "Raleway", sans-serif;
 }
 
 
 .education_area .education_inner_area .education_item p {
-  font-size: 13px;
+  
+	font-size: 13px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
-  color: #666666;
+  
+	color: #666666;
   font-weight: 400;
   padding-top: 12px;
 }
 
 
-/* End Education Area css
-============================================================================================ */
 
 /* Service Area css
 ============================================================================================ */
 
 .service_area {
-  background: #27a79a;
-  padding: 0px 50px 60px 50px;
+  
+	background: #222222;
+  
+	padding: 0px 0px 0px 0px;
 }
 
 
 .service_area .service_inner .service_item {
-  text-align: center;
-  margin-top: 30px;
+  
+	text-align: center;
+  
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 
 .service_area .service_inner .service_item i {
-  height: 62px;
+  
+	height: 62px;
   width: 62px;
   line-height: 60px;
-  border-radius: 50%;
+  
+	border-radius: 50%;
   background: #efefef;
-  border: 2px solid #222222;
+  
+	border: 2px solid #222222;
   font-size: 30px;
   color: #222222;
-  transition: all 400ms linear 0s;
+  
+	transition: all 200ms linear 0s;
+}
+
+
+.service_area .service_inner .service_item j {
+  
+	height: 62px;
+  width: 62px;
+  line-height: 60px;
+  
+	border-radius: 50%;
+  background: #efefef;
+  
+	border: 2px solid #222222;
+  font-size: 30px;
+  color: #222222;
+  
+	transition: all 200ms linear 0s;
 }
 
 
 .service_area .service_inner .service_item h4 {
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  color: #222222;
-  padding: 25px 0px 15px 0px;
+  
+	font-size: 18px;
+  
+	font-family: "Raleway", sans-serif;
+  
+	font-weight: bold;
+  
+	color: #222222;
+  
+	padding: 25px 0px 15px 0px;
 }
 
 
 .service_area .service_inner .service_item p {
-  font-size: 13px;
-  font-family: "Raleway", sans-serif;
-  line-height: 24px;
-  color: #333333;
+  
+	font-size: 13px;
+  
+	font-family: "Raleway", sans-serif;
+  
+	line-height: 24px;
+  
+	color: #333333;
 }
 
 
 .service_area .service_inner .service_item:hover i {
-  background: #222222;
-  border-color: #efefef;
-  color: #fff;
+  
+	background: #222222;
+  
+	border-color: #efefef;
+  
+	color: #fff;
+}
+
+
+.service_area .service_inner .service_item:hover j {
+  
+	background: linear-gradient(to right, red, yellow, green, blue, purple);
+  
+	border-color: #efefef;
+  
+	color: #fff;
 }
 
 
