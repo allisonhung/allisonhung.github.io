@@ -1,10 +1,4 @@
 /*=====================================================================
-@Template Name: Ramirez
-@Author: Rocky Ahmed
-@Developed By: Rocky Ahmed
-@Developer URL: http://rocky.wethemez.com
-@Default Styles
-
 Table of Content:
 01/ Variables
 02/ predefin
@@ -154,12 +148,16 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 
 #preloader #preloader_spinner {
-  position: absolute;
+  
+	position: absolute;
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  -ms-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  
+	-webkit-transform: translateX(-50%) translateY(-50%);
+  
+	-ms-transform: translateX(-50%) translateY(-50%);
+  
+	transform: translateX(-50%) translateY(-50%);
 }
 
 
@@ -170,9 +168,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 	-moz-animation: load 1s infinite linear;
   animation: load 1s infinite linear;
   
-	background: -webkit-linear-gradient(top, #fec608 10%, rgba(255, 255, 255, 0) 100%);
+	background: -webkit-linear-gradient(top, #27a79a 10%, rgba(255, 255, 255, 0) 100%);
   
-	background: linear-gradient(to bottom, #fec608 10%, rgba(255, 255, 255, 0) 100%);
+	background: linear-gradient(to bottom, #27a79a 10%, rgba(255, 255, 255, 0) 100%);
  
 	height: 4em;
   width: 4em;
@@ -186,32 +184,40 @@ body, p, h1, h2, h3, h4, h5, h6 {
 .spinner:before {
   
 	position: absolute;
-  top: 0;
+  
+	top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 100%;
+  
+	height: 100%;
   width: 100%;
  
-	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, #fec608 50%);
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 50%, 
+	#27a79a 50%);
   
-background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #fec608 50%);
+background: linear-gradient(to right, rgba(255, 255, 255, 0) 50%, #27a79a 50%);
   border-radius: 100%;
   content: '';
 }
 
 
 .spinner:after {
-  position: absolute;
-  top: 0;
+  
+	position: absolute;
+  
+	top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 90%;
+  
+	height: 90%;
   width: 90%;
-  background: #fff;
+  
+	background: #fff;
   border-radius: 50%;
- content: '';
+ 
+	content: '';
   
 margin: auto;
 }
@@ -265,7 +271,7 @@ margin: auto;
 ============================================================================================ */
 
 .header_area {
-  background: #fec608;
+  background: #27a79a;
 }
 
 
@@ -322,11 +328,14 @@ margin: auto;
   
 	display: inline-block;
   
-	transition: all 400ms linear 0s;
+	transition: all 200ms linear 0s;
 }
 
 
-.header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:hover a, .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li.active a {
+.header_area .navbar.navbar-default 
+.navbar-collapse 
+.nav.navbar-nav li:hover a, .header_area .navbar.navbar-default 
+.navbar-collapse .nav.navbar-nav li.active a {
   
 	color: #fff;
 }
@@ -356,6 +365,7 @@ margin: auto;
   
 	margin-top: 80px;
 }
+
 
 
 /* End Header Menu Area css============================================================================================ */
@@ -415,7 +425,7 @@ margin: auto;
 
 .about_person_area .person_details h3 span {
   
-	color: #fec608;
+	color: #27a79a;
 }
 
 
@@ -476,13 +486,15 @@ margin: auto;
 
 
 .social_icon li {
-  display: inline-block;
+  
+	display: inline-block;
   margin-right: 20px;
 }
 
 
 .social_icon li a {
-  height: 40px;
+  
+	height: 40px;
   width: 40px;
   text-align: center;
   border: 1px solid #677fb5;
@@ -496,7 +508,8 @@ margin: auto;
 
 
 .social_icon li:nth-child(2) a {
-  color: #70c2e9;
+  
+	color: #70c2e9;
   border-color: #70c2e9;
 }
 
@@ -609,7 +622,7 @@ margin: auto;
   
 	display: block;
   
-	background: #fec208;
+	background: #27a79a;
   text-align: center;
   line-height: 40px;
   
@@ -668,7 +681,8 @@ margin: auto;
 
 
 .contact_btn {
-  max-width: 140px;
+  
+	max-width: 140px;
   display: block;
   line-height: 40px;
   color: #fff;
@@ -676,8 +690,9 @@ margin: auto;
   box-shadow: none !important;
   outline: none !important;
   border: none;
-  border-radius: 0px;
-  background: #fec608;
+  
+	border-radius: 0px;
+  background: #27a79a;
   width: 100%;
   padding: 0px;
   position: relative;
@@ -712,12 +727,12 @@ margin: auto;
 
 
 .contact_btn:focus {
-  background: #fec608;
+  background: #27a79a;
 }
 
 
 .contact_btn:hover {
-  background: #fec608;
+  background: #27a79a;
 }
 
 
@@ -786,9 +801,11 @@ margin: auto;
 }
 
 .myskill_area .skill_item_inner .single_skill .progress .progress-bar {
-  background: #fec608;
+  
+	background: #27a79a;
   box-shadow: none;
 }
+
 
 .myskill_area .skill_item_inner .single_skill .progress .progress-bar .progress_parcent {
   font-family: "Raleway", sans-serif;
@@ -824,44 +841,54 @@ margin: auto;
 
 
 .education_area .education_inner_area:before {
-  content: "";
+  
+	content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 50%;
   width: 5px;
-  margin-left: -2.5px;
+  
+	margin-left: -2.5px;
   background: rgba(254, 198, 8, 0.5);
 }
 
+
 .education_area .education_inner_area .education_item {
-  width: 50%;
+  
+	width: 50%;
   max-width: 420px;
   background: #fff;
   margin-bottom: 30px;
-  padding: 20px;
+  
+	padding: 20px;
   position: relative;
   z-index: 2;
 }
 
+
 .education_area .education_inner_area .education_item:before {
-  content: attr(data-line);
+  
+	content: attr(data-line);
   position: absolute;
   right: -108px;
   top: 0px;
   height: 50px;
-  width: 50px;
+  
+	width: 50px;
   border-radius: 50%;
   border: 4px solid #f7da7b;
   text-align: center;
   color: #fff;
   line-height: 43px;
-  font-family: "Raleway", sans-serif;
+  
+	font-family: "Raleway", sans-serif;
   font-size: 30px;
   font-weight: bold;
   text-transform: uppercase;
-  background: #fec608;
+  background: #27a79a;
 }
+
 
 .education_area .education_inner_area .education_item:after {
   content: "";
@@ -905,8 +932,9 @@ margin: auto;
 
 
 .education_area .education_inner_area .education_item h6 {
-  font-size: 14px;
-  color: #fec608;
+  
+	font-size: 14px;
+  color: #27a79a;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
@@ -944,7 +972,7 @@ margin: auto;
 ============================================================================================ */
 
 .service_area {
-  background: #fec608;
+  background: #27a79a;
   padding: 0px 50px 60px 50px;
 }
 
@@ -1035,7 +1063,7 @@ margin: auto;
 
 .awards_area ul li a {
   
-	color: #fec608;
+	color: #27a79a;
   font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
@@ -1080,7 +1108,7 @@ margin: auto;
 
 .twitter_area ul li a {
   
-	color: #fec608;
+	color: #27a79a;
   font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
@@ -1168,7 +1196,7 @@ margin: auto;
 
 
 .blog_slider_area .blog_slider_inner .item h5 a {
-  color: #fec608;
+  color: #27a79a;
 }
 
 
@@ -1186,7 +1214,7 @@ margin: auto;
 
 .blog_slider_area .owl-prev:hover {
   
-	color: #fec608;
+	color: #27a79a;
 }
 
 
@@ -1203,7 +1231,7 @@ margin: auto;
 
 
 .blog_slider_area .owl-next:hover {
-  color: #fec608;
+  color: #27a79a;
 }
 
 .contact_title h3 {
@@ -1243,13 +1271,13 @@ margin: auto;
 .left_contact_details .media .media-left i {
   height: 60px;
   width: 60px;
-  background: #fec608;
+  background: #27a79a;
   color: #fff;
   font-size: 30px;
   text-align: center;
   line-height: 60px;
   border-radius: 50%;
-  border: 1px solid #fec608;
+  border: 1px solid #27a79a;
   transition: all 400ms linear 0s;
 }
 
@@ -1274,7 +1302,7 @@ margin: auto;
 
 .left_contact_details .media:hover .media-left i {
   background: transparent;
-  color: #fec608;
+  color: #27a79a;
 }
 
 
@@ -1327,7 +1355,7 @@ margin: auto;
 
 
 .contact_from_area .form-group input:focus {
-  border-color: #fec608;
+  border-color: #27a79a;
 }
 
 
@@ -1374,7 +1402,7 @@ margin: auto;
 }
 
 .contact_from_area .form-group textarea:focus {
-  border-color: #fec608;
+  border-color: #27a79a;
 }
 
 
@@ -1436,7 +1464,7 @@ margin: auto;
   display: block;
   margin-right: 5px;
   margin-bottom: 5px;
-  background: #fec608;
+  background: #27a79a;
 }
 
 
@@ -1619,7 +1647,7 @@ margin: auto;
 
 .footer_copyright .pull-left h5 a {
   font-weight: bold;
-  color: #fec608;
+  color: #27a79a;
 }
 
 
@@ -1653,7 +1681,7 @@ margin: auto;
 
 .footer_copyright .pull-right .navbar-nav li:hover a, .footer_copyright .pull-right .navbar-nav li.active a {
   
-	color: #fec608;
+	color: #27a79a;
 }
 
 

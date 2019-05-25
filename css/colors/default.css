@@ -1,4 +1,6 @@
-.main_menu .navbar-default .navbar-collapse .navbar-nav li:hover a, .main_menu .navbar-default .navbar-collapse .navbar-nav li.active a {
+.main_menu .navbar-default .navbar-collapse 
+.navbar-nav li:hover a, .main_menu .navbar-default 
+.navbar-collapse .navbar-nav li.active a {
 	
 	color: #27a79a;
 }
