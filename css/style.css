@@ -646,8 +646,7 @@ margin: auto;
   
 	background-color: transparent;
 
-	border-color: black;
-	border-width: 100px;  
+	border: 2px solid black;  
 	text-align: center;
   
 	line-height: 40px;
