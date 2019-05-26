@@ -271,7 +271,8 @@ margin: auto;
 ============================================================================================ */
 
 .header_area {
-  background: #27a79a;
+  
+	background: #27a79a;
 }
 
 
@@ -295,7 +296,7 @@ margin: auto;
   
 	vertical-align: middle;
   
-	line-height: 76px;
+	line-height: 50px;
 }
 
 
@@ -317,7 +318,7 @@ margin: auto;
   
 	background: transparent;
   
-	line-height: 80px;
+	line-height: 120px;
   
 	font-family: "Raleway", sans-serif;
   
@@ -333,8 +334,11 @@ margin: auto;
 
 
 .header_area .navbar.navbar-default 
+
 .navbar-collapse 
+
 .nav.navbar-nav li:hover a, .header_area .navbar.navbar-default 
+
 .navbar-collapse .nav.navbar-nav li.active a {
   
 	color: #fff;
@@ -363,7 +367,7 @@ margin: auto;
 
 .header_area.stricky-fixed + section, .header_area.stricky-fixed + div, .header_area.stricky-fixed + .row {
   
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 
@@ -381,7 +385,7 @@ margin: auto;
 .about_person_area {
   
 	background: #fff;
-  margin-top: 60px;
+  margin-top: 40px;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -400,16 +404,11 @@ margin: auto;
 }
 
 
-.about_person_area .person_img .download_btn {
-  
-	margin-top: -20px;
-}
-
-
 .about_person_area .person_details {
   
 	margin-left: -30px;
 }
+
 
 
 .about_person_area .person_details h3 {
@@ -643,17 +642,22 @@ margin: auto;
 
 .download_btn {
   
-	display: block;
+	display: inline-block;
   
-	background: #27a79a;
-  
+	background-color: blue;
+
+	border-color: black;
+	border-width: 100px;  
 	text-align: center;
   
 	line-height: 40px;
   
-	border-radius: 20px;
+	border-radius: 0px;
   
-	color: #222222;
+	padding: 0px 30px;
+	border: black;
+	
+	color: black;
   
 	font-size: 18px;
   
@@ -662,16 +666,18 @@ margin: auto;
 	position: relative;
   
 	overflow: hidden;
-}
 
-
+	margin-top: 20px;}
+	
 .download_btn span {
   
 	display: inline-block;
-  width: 100%;
+  
+	width: 100%;
   
 	-webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  
+	backface-visibility: hidden;
   
 	height: 100%;
   
@@ -679,16 +685,20 @@ margin: auto;
 }
 
 
+
 .download_btn:before {
   
 	content: "\f019";
-  position: absolute;
+  
+	position: absolute;
   
 	height: 100%;
   width: 100%;
-  text-align: center;
+  
+	text-align: center;
   line-height: 40px;
-  font-size: 18px;
+  
+	font-size: 18px;
   color: #222222;
   
 	top: -100%;
@@ -696,6 +706,7 @@ margin: auto;
   font-family: FontAwesome;
   transition: all 200ms ease-in;
 }
+
 
 
 .download_btn:hover span {
@@ -713,88 +724,6 @@ margin: auto;
 	top: 0px;
 }
 
-
-
-/* contact BTN area css
-============================================================================================ */
-
-.contact_btn {
-  
-	max-width: 140px;
-  display: block;
-  line-height: 40px;
-  color: #fff;
-  
-	font-family: "Raleway", sans-serif;
-  box-shadow: none !important;
-  outline: none !important;
-  border: none;
-  
-	border-radius: 0px;
-  background: #27a79a;
-  width: 100%;
-  padding: 0px;
-  position: relative;
-  overflow: hidden;
-}
-
-
-.contact_btn span {
-  
-	display: inline-block;
-  width: 100%;
-  -webkit-backface-visibility: hidden;
-  
-	backface-visibility: hidden;
-  height: 100%;
-  transition: all 400ms linear 0s;
-}
-
-
-.contact_btn:before {
-  
-	content: "\f1d8";
-  
-	position: absolute;
-  height: 100%;
-  width: 100%;
-  
-	text-align: center;
-  line-height: 40px;
-  font-size: 18px;
-  
-	color: #fff;
-  top: -100%;
-  left: 0px;
-  font-family: FontAwesome;
-  
-	transition: all 200ms ease-in;
-}
-
-
-.contact_btn:focus {
-  background: #27a79a;
-}
-
-
-.contact_btn:hover {
-  background: #27a79a;
-}
-
-
-.contact_btn:hover span {
-  -webkit-transform: translateY(300%);
-  -ms-transform: translateY(300%);
-  transform: translateY(300%);
-}
-
-
-.contact_btn:hover:before {
-  top: 0px;
-}
-
-
-/* End Download BTN area css============================================================================================ */
 
 
 /*---------------------------------------------------- */
@@ -1428,184 +1357,6 @@ margin: auto;
   padding-bottom: 34px;
 }
 
-
-
-
-
-.left_contact_details p {
-  font-size: 14px;
-  color: #666666;
-  line-height: 24px;
-  padding-bottom: 20px;
-}
-
-
-.left_contact_details p + p {
-  padding-bottom: 20px;
-}
-
-.left_contact_details .media {
-  margin-top: 30px;
-}
-
-
-.left_contact_details .media .media-left {
-  padding-right: 30px;
-}
-
-
-.left_contact_details .media .media-left i {
-  height: 60px;
-  width: 60px;
-  background: #27a79a;
-  color: #fff;
-  font-size: 30px;
-  text-align: center;
-  line-height: 60px;
-  border-radius: 50%;
-  border: 1px solid #27a79a;
-  transition: all 400ms linear 0s;
-}
-
-
-.left_contact_details .media .media-body h4 {
-  font-size: 14px;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: #333333;
-  padding-bottom: 10px;
-}
-
-
-.left_contact_details .media .media-body p {
-  padding: 0px;
-  font-size: 14px;
-  color: #666666;
-  line-height: 24px;
-}
-
-
-.left_contact_details .media:hover .media-left i {
-  background: transparent;
-  color: #27a79a;
-}
-
-
-.contact_from_area .form-group {
-  margin-bottom: 20px;
-}
-
-
-.contact_from_area .form-group input {
-  width: 100%;
-  box-shadow: none;
-  outline: none;
-  text-shadow: none;
-  border: 1px solid #dfdfdf;
-  border-radius: 0px;
-  padding: 0px 15px;
-  height: 50px;
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group input.placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group input:-moz-placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group input::-moz-placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group input::-webkit-input-placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group input:focus {
-  border-color: #27a79a;
-}
-
-
-.contact_from_area .form-group textarea {
-  width: 100%;
-  box-shadow: none;
-  outline: none;
-  text-shadow: none;
-  border: 1px solid #dfdfdf;
-  border-radius: 0px;
-  padding: 20px 15px 0px 15px;
-  height: 120px;
-  font-size: 14px;
-  color: #999999;
-  resize: none;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group textarea.placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-.contact_from_area .form-group textarea:-moz-placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group textarea::-moz-placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-
-.contact_from_area .form-group textarea::-webkit-input-placeholder {
-  font-size: 14px;
-  color: #999999;
-  font-family: "Raleway", sans-serif;
-}
-
-.contact_from_area .form-group textarea:focus {
-  border-color: #27a79a;
-}
-
-
-.contact_from_area .form-group:last-child {
-  margin-bottom: 0px;
-  margin-top: 10px;
-}
-
-
-.mapBox {
-  height: 220px;
-  margin-top: 60px !important;
-}
-
-
-/* End News area css
-============================================================================================ */
 
 
 
