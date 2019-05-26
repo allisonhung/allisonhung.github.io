@@ -643,18 +643,15 @@ margin: auto;
 .download_btn {
   
 	display: inline-block;
+  color: #222222;
   
-	background-color: transparent;
-
-	border: 2px solid black;  
 	text-align: center;
+  border: 1px solid #222222;
   
-	line-height: 40px;
-  
-	border-radius: 0px;
-  
-	padding: 0px 30px;
-	border: black;
+	display: inline-block;
+  line-height: 58px;
+  padding: 0px 23px;
+	background-color: white;
 	
 	color: black;
   
