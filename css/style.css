@@ -866,7 +866,7 @@ margin: auto;
 	font-weight: bold;
   text-transform: uppercase;
   
-	background: #27a79a;
+	background: #29B2A4;
 }
 
 
@@ -874,7 +874,7 @@ margin: auto;
   
 	content: "";
   
-	background: #27a79a;
+	background: #29B2A4;
   
 	height: 4px;
   position: absolute;
@@ -895,12 +895,12 @@ margin: auto;
   
 	right: auto;
   left: -108px;
-}
+background:#29B2A4;}
 
 
 .education_area .education_inner_area .education_item:nth-child(even):after {
   
-	left: -78px;
+	left: -78px;background:#29B2A4;
 }
 
 
@@ -918,8 +918,7 @@ margin: auto;
 
 .education_area .education_inner_area .education_item:last-child {
   
-	margin-bottom: 0px;
-}
+	margin-bottom: 0px;}
 
 
 .education_area .education_inner_area .education_item h6 {
