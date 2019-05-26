@@ -916,64 +916,79 @@ margin: auto;
 .education_area .education_inner_area .education_item:before {
   
 	content: attr(data-line);
-  position: absolute;
+  
+	position: absolute;
   right: -108px;
-  top: 0px;
+  
+	top: 0px;
   height: 50px;
   
 	width: 50px;
   border-radius: 50%;
-  border: 4px solid #f7da7b;
-  text-align: center;
+  
+	border: 4px solid #29B2A4;
+ 
+	text-align: center;
   color: #fff;
   line-height: 43px;
   
 	font-family: "Raleway", sans-serif;
   font-size: 30px;
-  font-weight: bold;
+  
+	font-weight: bold;
   text-transform: uppercase;
-  background: #27a79a;
+  
+	background: #27a79a;
 }
 
 
 .education_area .education_inner_area .education_item:after {
-  content: "";
+  
+	content: "";
   background: #f7da7b;
   height: 4px;
   position: absolute;
-  right: -78px;
+  
+	right: -78px;
   top: 0px;
   width: 119%;
 }
 
+
 .education_area .education_inner_area .education_item:nth-child(even) {
-  float: right;
+  
+	float: right;
 }
 
 
 .education_area .education_inner_area .education_item:nth-child(even):before {
-  right: auto;
+  
+	right: auto;
   left: -108px;
 }
 
 
 .education_area .education_inner_area .education_item:nth-child(even):after {
-  left: -78px;
+  
+	left: -78px;
 }
 
 
 .education_area .education_inner_area .education_item:nth-child(odd) {
-  float: left;
+  
+	float: left;
 }
 
 
 .education_area .education_inner_area .education_item:nth-child(2) {
-  margin-top: 108px;
+  
+	margin-top: 108px;
 }
 
 
 .education_area .education_inner_area .education_item:last-child {
-  margin-bottom: 0px;
+  
+	margin-bottom: 0px;
 }
 
 
@@ -987,9 +1002,12 @@ margin: auto;
 
 
 .education_area .education_inner_area .education_item h4 {
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
-  color: #333333;
+  
+	font-size: 18px;
+  
+	font-family: "Raleway", sans-serif;
+  
+	color: #333333;
   padding: 8px 0px 7px 0px;
 }
 
@@ -1020,7 +1038,7 @@ margin: auto;
 
 .service_area {
   
-	background: #222222;
+	background: #fff;
   
 	padding: 0px 0px 0px 0px;
 }
@@ -1033,6 +1051,7 @@ margin: auto;
 	margin-top: 30px;
 	margin-bottom: 30px;
 }
+
 
 
 .service_area .service_inner .service_item i {
@@ -1048,8 +1067,9 @@ margin: auto;
   font-size: 30px;
   color: #222222;
   
-	transition: all 200ms linear 0s;
+	transition: all 300ms linear 0s;
 }
+
 
 
 .service_area .service_inner .service_item j {
@@ -1065,8 +1085,9 @@ margin: auto;
   font-size: 30px;
   color: #222222;
   
-	transition: all 200ms linear 0s;
+	transition: all 300ms linear 0s;
 }
+
 
 
 .service_area .service_inner .service_item h4 {
@@ -1105,7 +1126,7 @@ margin: auto;
 }
 
 
-.service_area .service_inner .service_item:hover j {
+.service_inner .service_item:hover j {
   
 	background: linear-gradient(to right, red, yellow, green, blue, purple);
   
