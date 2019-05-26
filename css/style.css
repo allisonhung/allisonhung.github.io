@@ -868,20 +868,20 @@ margin: auto;
 }
 
 
-/* End Skill Area css
-============================================================================================ */
 
 
 /* Education Area css
 ============================================================================================ */
 
 .education_area {
-  padding-bottom: 60px;
+  
+	padding-bottom: 60px;
 }
 
 
 .education_area .education_inner_area {
-  position: relative;
+  
+	position: relative;
   overflow: hidden;
 }
 
@@ -889,14 +889,16 @@ margin: auto;
 .education_area .education_inner_area:before {
   
 	content: "";
-  position: absolute;
+  
+	position: absolute;
   top: 0;
   bottom: 0;
   left: 50%;
   width: 5px;
   
 	margin-left: -2.5px;
-  background: rgba(254, 198, 8, 0.5);
+  
+	background: rgba(254, 198, 8, 0.5);
 }
 
 
@@ -904,7 +906,8 @@ margin: auto;
   
 	width: 50%;
   max-width: 420px;
-  background: #fff;
+  
+	background: #fff;
   margin-bottom: 30px;
   
 	padding: 20px;
@@ -945,8 +948,10 @@ margin: auto;
 .education_area .education_inner_area .education_item:after {
   
 	content: "";
-  background: #29B2A4;
-  height: 4px;
+  
+	background: #29B2A4;
+  
+	height: 4px;
   position: absolute;
   
 	right: -78px;
@@ -995,9 +1000,12 @@ margin: auto;
 .education_area .education_inner_area .education_item h6 {
   
 	font-size: 14px;
-  color: #27a79a;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  
+	color: #27a79a;
+  
+	font-family: "Raleway", sans-serif;
+  	
+	font-weight: bold;
 }
 
 
@@ -1008,27 +1016,34 @@ margin: auto;
 	font-family: "Raleway", sans-serif;
   
 	color: #333333;
-  padding: 8px 0px 7px 0px;
+  
+	padding: 8px 0px 7px 0px;
 }
 
 
 .education_area .education_inner_area .education_item h5 {
   
 	font-size: 14px;
-  color: #333333;
-  font-family: "Raleway", sans-serif;
+  
+	color: #333333;
+  
+	font-family: "Raleway", sans-serif;
 }
 
 
 .education_area .education_inner_area .education_item p {
   
 	font-size: 13px;
-  line-height: 24px;
-  font-family: "Raleway", sans-serif;
+  
+	line-height: 24px;
+  
+	font-family: "Raleway", sans-serif;
   
 	color: #666666;
-  font-weight: 400;
-  padding-top: 12px;
+  
+	font-weight: 400;
+  
+	padding-top: 12px;
 }
 
 
@@ -1155,7 +1170,35 @@ margin: auto;
 
 .service_inner .service_item:hover q {
   
-	background: #BA55D3;
+	background: radial-gradient(#BA55D3, black);
+  
+	border-color: #efefef;
+  
+	color: #fff;
+}
+
+
+
+.service_area .service_inner .service_item r {
+  
+	height: 62px;
+  width: 62px;
+  line-height: 60px;
+  
+	border-radius: 50%;
+  background: #efefef;
+  
+	border: 2px solid #222222;
+  font-size: 30px;
+  color: #222222;
+  
+	transition: all 300ms linear 0s;
+}
+
+
+.service_inner .service_item:hover r {
+  
+	background: linear-gradient(to left, black, #69a3c9);
   
 	border-color: #efefef;
   
