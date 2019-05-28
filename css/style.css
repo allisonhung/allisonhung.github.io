@@ -652,7 +652,6 @@ margin: auto;
   line-height: 58px;
   padding: 0px 23px;
 	background-color: white;
-	
 	color: black;
   
 	font-size: 18px;
@@ -730,46 +729,57 @@ margin: auto;
 /* Skill Area css============================================================================================ */
 
 .myskill_area .skill_text {
-  padding-bottom: 28px;
+  
+	padding-bottom: 28px;
 }
 
 
 .myskill_area .skill_text h4 {
-  font-family: "Raleway", sans-serif;
+  
+	font-family: "Raleway", sans-serif;
   color: #333333;
   font-size: 24px;
-  text-transform: uppercase;
+  
+	text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 25px;
 }
 
 
 .myskill_area .skill_text p {
-  font-size: 13px;
+  
+	font-size: 13px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
-  color: #333333;
+  
+	color: #333333;
 }
 
 
 .myskill_area .skill_item_inner .single_skill h4 {
-  font-size: 16px;
+  
+	font-size: 16px;
   color: #333333;
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
+  
+	text-transform: uppercase;
   font-weight: bold;
   padding-bottom: 5px;
 }
 
+
 .myskill_area .skill_item_inner .single_skill .progress {
-  margin-bottom: 30px;
+  
+	margin-bottom: 30px;
   height: 30px;
   border-radius: 0px;
-  border: none;
+  
+	border: none;
   box-shadow: none;
   text-shadow: none;
   background: #fff;
 }
+
 
 .myskill_area .skill_item_inner .single_skill .progress .progress-bar {
   
@@ -1399,30 +1409,6 @@ background:#29B2A4;}
   background: #27a79a;
 }
 
-
-.envalab-style-switch .switched-options .styles li:nth-child(2) a {
-  background: #fe562e;
-}
-
-
-.envalab-style-switch .switched-options .styles li:nth-child(3) a {
-  background: #fe2e86;
-}
-
-
-.envalab-style-switch .switched-options .styles li:nth-child(4) a {
-  background: #732efe;
-}
-
-
-.envalab-style-switch .switched-options .styles li:nth-child(5) a {
-  background: #26b7e7;
-}
-
-
-.envalab-style-switch .switched-options .styles li:last-child a {
-  background: #27a79a;
-}
 
 
 .envalab-style-switch .switch-button {
