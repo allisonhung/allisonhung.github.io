@@ -63,19 +63,13 @@ body {
 
 
 body.light_bg {
-  background: url(../img/Pattern_Light.png) repeat scroll center center;
-  background-size: contain;
-}
-
-
-body.dark_bg {
-  background: url(../img/Pattern_Drak.png) repeat scroll center center;
+  background: url(../img/wood.jpg) repeat scroll center center;
   background-size: contain;
 }
 
 
 body .content_inner_bg {
-  background: #efefef;
+  /*background: #efefef;*/
 }
 
 
@@ -125,6 +119,21 @@ body, p, h1, h2, h3, h4, h5, h6 {
   
 	text-align: center;
   border: 1px solid #222222;
+  
+	display: inline-block;
+  line-height: 58px;
+  padding: 0px 23px;
+}
+.main_title h3 {
+  
+	font-size: 36px;
+  
+	font-family: "Bree Serif", serif;
+  
+	color: #fff;
+  
+	text-align: center;
+  border: 1px solid #fff;
   
 	display: inline-block;
   line-height: 58px;
@@ -300,11 +309,14 @@ margin: auto;
 }
 
 
+
+
 .header_area .navbar.navbar-default .navbar-header .navbar-brand img {
   
 	display: inline-block;
 	max-width:60%;
     	height:auto;
+	transition: all 200ms linear 0s;
 }
 
 
@@ -317,20 +329,13 @@ margin: auto;
 .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li a {
   
 	padding: 0px;
-  
 	background: transparent;
-  
 	line-height: 50px;
-  
 	font-family: "Raleway", sans-serif;
-  
 	text-transform: uppercase;
-  
 	font-weight: bold;
   color: #222222;
-  
 	display: inline-block;
-  
 	transition: all 200ms linear 0s;
 }
 
@@ -344,6 +349,9 @@ margin: auto;
 	color: #fff;
 }
 
+.header_area .navbar.navbar-default .navbar-header .navbar-brand:hover a{
+	opacity:0;
+}
 
 .header_area .navbar.navbar-default .navbar-collapse .nav.navbar-nav li:last-child {
   
@@ -731,13 +739,14 @@ margin: auto;
 .myskill_area .skill_text {
   
 	padding-bottom: 28px;
+	color:#fff
 }
 
 
 .myskill_area .skill_text h4 {
   
 	font-family: "Raleway", sans-serif;
-  color: #333333;
+  color: #fff;
   font-size: 24px;
   
 	text-transform: uppercase;
@@ -752,14 +761,14 @@ margin: auto;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   
-	color: #333333;
+	color: #fff;
 }
 
 
 .myskill_area .skill_item_inner .single_skill h4 {
   
 	font-size: 16px;
-  color: #333333;
+  color: #fff;
   font-family: "Raleway", sans-serif;
   
 	text-transform: uppercase;
@@ -987,7 +996,7 @@ background:#29B2A4;}
 
 .service_area {
   
-	background: #27a79a;
+	background: #fff;
   
 	padding: 0px 0px 0px 0px;
 }
@@ -997,8 +1006,8 @@ background:#29B2A4;}
   
 	text-align: center;
   
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 0px;
+	margin-bottom: 60px;
 }
 
 
@@ -1066,7 +1075,7 @@ background:#29B2A4;}
   
 	color: #222222;
   
-	padding: 25px 0px 15px 0px;
+	padding: 0px 0px 0px 0px;
 }
 
 
