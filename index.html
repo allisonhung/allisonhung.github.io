@@ -468,27 +468,20 @@
        
 
          
-<section class="service_area" id="service">
-                    
+<section class="service_area" id="service">          
 <div class="main_title">
-                        
 	<h2>Interests</h2>
-                    
 </div>
                     
 
 <div class="service_inner row">
-                        
-
-<div class="col-md-4">
-                            
-	<div class="service_item wow fadeIn animated">
-                                
-		<a href="#"><r class="fa fa-wpexplorer" aria-hidden="true"></r>
-                                
-		<h4>Research</h4></a>
-                                
-		<p>text goes here</p>
+	<div class="col-md-4">                        
+		<div class="service_item wow fadeIn animated">                     
+			<div class = "popup" onclick="myFunctionone()">
+				<r class="fa fa-wpexplorer" aria-hidden="true"></r> 
+				<span class="popuptext" id="mypopup1">I've done projects in computational biology, cell biology, and microbiology. </span>
+			</div>               
+			<h4>Research</h4>
                             
 	</div>
                         
@@ -499,11 +492,12 @@
                             
 	<div class="service_item wow fadeIn animated">
                                 
-		<a href="#"><q class="fa fa-podcast" aria-hidden="true"></q>
+		<div class = "popup" onclick="myFunction2()">
+			<q class="fa fa-podcast" aria-hidden="true"></q>
+			<span class="popuptext" id = "mypopup2">I teach for Columbia Splash and mentor underclassmen for CUSJ</span>
+		</div>
                                 
-		<h4>Scientific Outreach</h4></a>
-                                
-		<p>text goes here</p>
+		<h4>Teaching</h4></a>
                             
 	</div>
                         
@@ -514,11 +508,12 @@
                             
 	<div class="service_item wow fadeIn animated">
                                 
-		<a href="#"><i class="fa fa-newspaper-o" aria-hidden="true"></i>
+		<div class = "popup" onclick="myFunction3()">
+			<i class="fa fa-newspaper-o" aria-hidden="true"></i>
+			<span class="popuptext" id="mypopup3">I help run CU Bio Bytes. Blog under way...</span>
+		</div>
                                 
-		<h4>Scientific Writing</h4></a>
-                                
-		<p>text goes here</p>
+		<h4>Outreach</h4></a>
                             
 	</div>
                         
@@ -528,12 +523,12 @@
 <div class="col-md-4">
                             
 	<div class="service_item wow fadeIn animated">
-                                
-		<a href="#"><j class="fa fa-power-off" aria-hidden="true"></j>
+        <div class = "popup" onclick="myFunction4()">                        
+			<j class="fa fa-power-off" aria-hidden="true"></j>
+			<span class="popuptext" id="mypopup4">I'm a member of Columbia IQ, an oSTEM (out in STEM) chapter</span>
+		</div>
                                 
 		<h4>Diversity in STEM</h4></a>
-                                
-		<p>text goes here</p>
                             
 	</div>
                         
@@ -544,11 +539,12 @@
                             
 	<div class="service_item wow fadeIn animated">
                                 
-		<a href="#"><i class="fa fa-camera" aria-hidden="true"></i>
+		 <div class = "popup" onclick="myFunction5()">
+			<i class="fa fa-camera" aria-hidden="true"></i>
+			<span class="popuptext" id="mypopup5">I run Pigeons of Columbia!</span>
+		</div>
                                 
-		<h4>Professional Photography</h4></a>
-                                
-		<p>text goes here</p>
+		<h4>Photography</h4></a>
                             
 	</div>
                         
@@ -750,16 +746,32 @@
         
 <script src="vendors/animate-css/wow.min.js"></script>
 
-        
-<!-- contact js -->
-        
-<script src="js/jquery.form.js"></script>
-        
-<script src="js/jquery.validate.min.js"></script>
-        
-<script src="js/contact.js"></script>
-        
-        
 <script src="js/theme.js"></script>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunctionone(){
+	var popup = document.getElementById("mypopup1");
+  popup.classList.toggle("show");
+}
+function myFunction2(){
+	var popup = document.getElementById("mypopup2");
+  popup.classList.toggle("show");
+}
+
+function myFunction3(){
+	var popup = document.getElementById("mypopup3");
+  popup.classList.toggle("show");
+}
+function myFunction4(){
+	var popup = document.getElementById("mypopup4");
+  popup.classList.toggle("show");
+}
+function myFunction5(){
+	var popup = document.getElementById("mypopup5");
+  popup.classList.toggle("show");
+}
+
+</script>
     </body>
 </html>

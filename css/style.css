@@ -995,36 +995,34 @@ background:#29B2A4;}
 ============================================================================================ */
 
 .service_area {
-  
 	background: #fff;
-  
+	opacity:.7;
 	padding: 0px 0px 0px 0px;
 }
 
 
 .service_area .service_inner .service_item {
-  
 	text-align: center;
-  
 	margin-top: 0px;
 	margin-bottom: 60px;
 }
 
 
 
+
+
+
+/**/
+
 .service_area .service_inner .service_item i {
-  
 	height: 62px;
   width: 62px;
   line-height: 60px;
-  
 	border-radius: 50%;
   background: #efefef;
-  
 	border: 2px solid #222222;
   font-size: 30px;
   color: #222222;
-  
 	transition: all 300ms linear 0s;
 }
 
@@ -1092,11 +1090,8 @@ background:#29B2A4;}
 
 
 .service_area .service_inner .service_item:hover i {
-  
 	background: radial-gradient(#69a3c9, black);
-  
 	border-color: #efefef;
-  
 	color: #fff;
 }
 
@@ -1104,9 +1099,7 @@ background:#29B2A4;}
 .service_inner .service_item:hover j {
   
 	background: linear-gradient(to right, red, yellow, green, blue, purple);
-  
 	border-color: #efefef;
-  
 	color: #fff;
 }
 
@@ -1147,7 +1140,55 @@ background:#29B2A4;}
   
 	color: #fff;
 }
+.popup {
+	position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+.popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
 
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
 
 
 /* End Service Area css

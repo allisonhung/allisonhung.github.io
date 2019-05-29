@@ -39,38 +39,6 @@
 
         });
     });
-    
-    
-    /*----------------------------------------------------*/
-    /*  portfolio_isotope
-    /*----------------------------------------------------*/
-    function our_gallery(){
-        if ( $('.portfolio_area').length ){
-            // Activate isotope in container
-            $(".portfolio_list_inner").imagesLoaded( function() {
-                $(".portfolio_list_inner").isotope({
-                    itemSelector: ".col-md-4",
-                }); 
-            }); 
-            // Add isotope click function
-            $(".porfolio_menu ul li").on('click',function(){
-                $(".porfolio_menu ul li").removeClass("active");
-                $(this).addClass("active");
-
-                var selector = $(this).attr("data-filter");
-                $(".portfolio_list_inner").isotope({
-                    filter: selector,
-                    animationOptions: {
-                        duration: 450,
-                        easing: "linear",
-                        queue: false,
-                    }
-                });
-                return false;
-            });
-        }
-    }
-    our_gallery();
 
     
     /*----------------------------------------------------*/
@@ -94,37 +62,7 @@
     
     
     
-    /*----------------------------------------------------*/
-    /*  Google map js
-    /*----------------------------------------------------*/
     
-    if ( $('#mapBox').length ){
-        var $lat = $('#mapBox').data('lat');
-        var $lon = $('#mapBox').data('lon');
-        var $zoom = $('#mapBox').data('zoom');
-        var map = new GMaps({
-            el: '#mapBox',
-            lat: $lat,
-            lng: $lon,
-            scrollwheel: false,
-            scaleControl: true,
-            streetViewControl: false,
-            panControl: true,
-            disableDoubleClickZoom: true,
-            mapTypeControl: false,
-            zoom: $zoom,
-                styles: [{"featureType":"administrative.country","elementType":"geometry","stylers":[{"visibility":"simplified"},{"hue":"#ff0000"}]}]
-            });
-        
-        }
-    
-        
-//    
-//        $('.header_area .nav.navbar-nav li').click(function(e) {
-//            e.preventDefault(); //prevent the link from being followed
-//            $('.header_area .nav.navbar-nav li').removeClass('active');
-//            $(this).addClass('active');
-//        });
     
     
     $('.header_area .nav.navbar-nav li a[href^="#"]:not([href="#"])').on('click', function(event) {
@@ -146,6 +84,10 @@
     }
     bodyScrollAnimation();
     
+	
+
+
+	
     
     // preloader js
     $(window).load(function() { // makes sure the whole site is loaded
