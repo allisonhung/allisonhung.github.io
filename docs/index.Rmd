@@ -1,0 +1,35 @@
+---
+title: "test_markdown"
+author: "Allison"
+date: "2024-05-21"
+output: html_document
+---
+
+
+## R Markdown
+
+This is a test.
+
+```{r}
+library(ggplot2)
+library(reshape2)
+sampledata <- as.data.frame(rbind(c(1,2,3),c(4,5,6)))
+names(sampledata) <- c("red","blue","yellow")
+sampledata
+
+graphdata <- melt(sampledata)
+names(graphdata) <- c("color","count")
+graphdata
+
+
+```
+
+## Test plot
+Test plot
+
+```{r}
+ggplot(data=graphdata,aes(x=color,y=count))+
+  geom_bar(stat="identity")
+```
+
+shrug
