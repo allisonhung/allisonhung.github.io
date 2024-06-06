@@ -21,12 +21,19 @@
     
     <p></p>
     <p>For fun</p>
-    <iframe src="https://allisonhung.github.io/network.html" height="300" width="400" style="border:none;" title="network"></iframe>
-    <form>
+    <iframe src="https://allisonhung.github.io/network.html" height="500" width="800" style="border:none;" title="network"></iframe>
+    <p>Add a new person:</p>
+    <form action="/action_page.php">
       <label for="fname">Person 1:</label><br>
       <input type="text" id="fname" name="fname"><br>
       <label for="lname">Person 2:</label><br>
       <input type="text" id="lname" name="lname">
+      <p>Type of relationship</p>
+      <input type="radio" id="friends" name="relationship" value="friends">
+      <label for="friends">Friends</label><br>
+      <input type="radio" id="enemies" name="relationship" value="enemies">
+      <label for="enemies">Enemies</label>
+      <input type="add" value="Add">
     </form>
   </body>
 </html>
